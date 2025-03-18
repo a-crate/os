@@ -44,6 +44,7 @@ pipeline:
         --build=${{host.triplet.gnu}} \
         --target=${{host.triplet.gnu}} \
         --prefix=/usr \
+        --with-module-directory=/usr/lib/modules \
         --with-zlib \
         --with-xz \
         --with-zstd \
